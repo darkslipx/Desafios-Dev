@@ -42,7 +42,7 @@ Caso não esteja, faça o download em [python.org/downloads](https://www.python.
 **1. Clone o repositório**
 
 ```bash
-git clone https://github.com/SEU_USUARIO/desafio-dev.git
+git clone https://github.com/darkslipx/Desafios-Dev.git
 cd desafio-dev
 ```
 
