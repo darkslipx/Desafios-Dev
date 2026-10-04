@@ -2,6 +2,16 @@
 
 Resolução dos três exercícios do desafio técnico, desenvolvidos em **Python 3**, utilizando apenas bibliotecas nativas da linguagem.
 
+## Por que Python
+
+Os três exercícios são essencialmente problemas de lógica: ler dados estruturados, aplicar regras de negócio e exibir resultados. Para esse tipo de problema, Python foi escolhido por alguns motivos:
+
+	•	Leitura de JSON nativa: o módulo json converte os dados diretamente em dicionários e listas, sem necessidade de criar classes de modelo para desserialização
+	•	Menos código estrutural: não exige declaração de classes, namespaces ou método Main para executar um script simples, deixando em evidência apenas a lógica de cada exercício
+	•	Bibliotecas nativas suficientes: uuid para gerar identificadores únicos e datetime para cálculo entre datas já vêm com a linguagem, sem instalar dependências
+	•	Execução direta: basta ter o Python instalado e rodar o arquivo, sem etapa de compilação ou configuração de projeto
+
+A lógica aplicada (agrupamento em dicionário, validação de regras, cálculo com datas) não depende da linguagem e pode ser reproduzida em C# com a mesma estrutura, usando System.Text.Json, Guid.NewGuid() e DateTime.
 ## Estrutura do projeto
 
 ```
